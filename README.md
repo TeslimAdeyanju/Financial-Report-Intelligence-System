@@ -1,4 +1,4 @@
-# 📊 CoreInsight Financial Report Intelligence System (FRIS)
+# Financial Report Intelligence System (FRIS)
 
 > **An AI-powered financial intelligence platform that transforms financial reports into structured metrics, financial insights, risk assessments, and business intelligence using a multi-agent architecture.**
 

@@ -41,7 +41,7 @@ The system is designed to:
 
 ## System Architecture
 
-![CoreInsight FRIS system architecture](docs/assets/workflow-pic.png)
+![FRIS financial report intelligence workflow architecture](docs/assets/fris-workflow-white.svg)
 
 ## Multi-Agent Framework
 

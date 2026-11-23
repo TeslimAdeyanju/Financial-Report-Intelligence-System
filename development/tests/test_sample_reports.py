@@ -7,7 +7,7 @@ SAMPLES = Path("sample_reports")
 
 
 def test_amazon_complete_primary_statements() -> None:
-    result = FinancialReportPipeline().analyze(SAMPLES / "Amazon-2025-Annual-Report.pdf")
+    result = FinancialReportPipeline().analyze(SAMPLES / "amazon_2025_annual_report.pdf")
 
     assert len(result.statements["income_statement"].rows) >= 23
     assert len(result.statements["balance_sheet"].rows) >= 26
@@ -21,7 +21,7 @@ def test_amazon_complete_primary_statements() -> None:
 
 
 def test_colgate_complete_primary_statements() -> None:
-    result = FinancialReportPipeline().analyze(SAMPLES / "Colgate_statement.pdf")
+    result = FinancialReportPipeline().analyze(SAMPLES / "colgate_statement.pdf")
 
     assert len(result.statements["income_statement"].rows) >= 17
     assert len(result.statements["balance_sheet"].rows) >= 31

@@ -153,7 +153,7 @@ def test_pipeline_uses_verified_augmentation_and_falls_back_safely() -> None:
         extraction_mode=ExtractionMode.RULES_ONLY,
         augment_insights=True,
         narrative_provider=valid_provider,
-    ).analyze(SAMPLES / "Amazon-2025-Annual-Report.pdf")
+    ).analyze(SAMPLES / "amazon_2025_annual_report.pdf")
 
     assert result.insight_model_used == "fake-narrative"
     assert result.augmented_insights
@@ -166,7 +166,7 @@ def test_pipeline_uses_verified_augmentation_and_falls_back_safely() -> None:
         extraction_mode=ExtractionMode.RULES_ONLY,
         augment_insights=True,
         narrative_provider=invalid_provider,
-    ).analyze(SAMPLES / "Amazon-2025-Annual-Report.pdf")
+    ).analyze(SAMPLES / "amazon_2025_annual_report.pdf")
 
     assert fallback.augmented_insights == []
     assert fallback.insight_model_used is None

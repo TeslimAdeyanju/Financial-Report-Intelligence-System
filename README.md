@@ -6,7 +6,7 @@
 **Core stack:** Python, Streamlit, PyMuPDF, Tesseract OCR, Pandas, Ollama with optional GLM OCR and Phi 3 Mini  
 **Repository:** [Financial Report Intelligence System](https://github.com/TeslimAdeyanju/Financial-Report-Intelligence-System)
 
-![FRIS workflow architecture showing report extraction, financial calculations, validation and insights](docs/assets/fris-workflow-white.svg)
+![FRIS workflow architecture showing report extraction, financial calculations, validation and insights](docs/assets/fris_workflow_white.svg)
 
 ## Executive Summary
 
@@ -28,7 +28,7 @@ The repository records the following checks from sample annual reports. These ar
 | Amazon 2025 annual report | 23 | 26 | 29 | 10/10 |
 | Colgate 2025 annual report | 17 | 31 | 33 | 15/15 |
 
-These figures are documented in [development history](docs/development-history.md). For current, reproducible behaviour, run the automated tests and review the underlying PDFs.
+These figures are documented in [development history](docs/development_history.md). For current, reproducible behaviour, run the automated tests and review the underlying PDFs.
 
 ## Data Sources and Scope
 
@@ -112,7 +112,7 @@ docs/assets/                  Workflow visualisations
 
 The current implemented pipeline focuses on corporate PDF statements, source level evidence, financial ratios, risks, insights and JSON outputs. Future capabilities include broader file types, more robust visual table reconstruction, wider LLM benchmarking, Power BI semantic blueprints and additional export formats. Do not assume those features are available now.
 
-Technical checkpoints, model benchmarks and dated implementation notes are preserved in [Development History](docs/development-history.md).
+Technical checkpoints, model benchmarks and dated implementation notes are preserved in [Development History](docs/development_history.md).
 
 ## Professional and Technical Notes
 
